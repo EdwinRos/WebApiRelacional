@@ -24,6 +24,6 @@ manera que como esta la llave primaria en la tabla colegio
 # nota
 1) Siempre recuerden que para poder guardar un dato relacionado debe de existir este mismo en la base de datos
 2) No olviden registrar estas dos nuevas entidades en el contexto de la base de datos
-3) Sorry por el desmadre compañeros xd
+3) Sorry por el desmadre compañeros xd traten de hacerlo y nos vemos el lunes
 
 
