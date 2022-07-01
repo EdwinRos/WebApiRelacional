@@ -11,5 +11,7 @@ namespace WebApiRealcional.Data
         }
         public DbSet<Tipos> tipos { get; set; }
         public DbSet<Animal> animal { get; set; }
+        public DbSet<Colegio> colegio { get; set; }
+        public DbSet<Alumno> alumno { get; set; }
     }
 }
