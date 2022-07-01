@@ -3,7 +3,7 @@
 # Indice
 * [Imagen base datos relacionada](#Base-Datos)
 * [clases/entidades para relacion de alumnos a colegios](#Entidades)
-* [Nota](#nota)
+* [Nota (Importante ⚠️)](#nota)
 
 ---
 # Base-Datos
@@ -24,6 +24,6 @@ manera que como esta la llave primaria en la tabla colegio
 # nota
 1) Siempre recuerden que para poder guardar un dato relacionado debe de existir este mismo en la base de datos
 2) No olviden registrar estas dos nuevas entidades en el contexto de la base de datos
-3) Sorry por el desmadre compañeros xd traten de hacerlo y nos vemos el lunes
-
+3) La base de datos solo tiene las tablas tipo y animal traten de hacer las otras dos de colegio y alumno y nos vemos el lunes
+4) Sorry por el desmadre compañeros xd
 
