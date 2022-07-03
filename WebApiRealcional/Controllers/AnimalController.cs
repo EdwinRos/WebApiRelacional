@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
 using System.Linq;
 using WebApiRealcional.Data;
 
@@ -44,6 +45,22 @@ namespace WebApiRealcional.Controllers
 
                 return StatusCode(500, "Error:=> " + ex);
             }
+        }
+
+        //Consumiendo este metodo lo puse aqui por que tenia hueva de hacer mas
+        [HttpPost("Pruebas/")]
+        public IActionResult pruebas([FromBody] UserEmail request)
+        {
+
+
+            var response = new {
+               mensaje = "Email generado correctamente",
+               statusCode = 200,
+               Email = request.generateEmail()                
+            };
+             
+
+            return Ok(response);
         }
 
     }

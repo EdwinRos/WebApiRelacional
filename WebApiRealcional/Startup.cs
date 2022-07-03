@@ -18,6 +18,9 @@ namespace WebApiRealcional
 {
     public class Startup
     {
+
+        private readonly string _Cors = "*";
+
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -37,7 +40,7 @@ namespace WebApiRealcional
             services.AddCors(
                 c =>
                 {
-                    c.AddPolicy("AllowOrigin", options => options.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
+                    c.AddPolicy(_Cors, options => options.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
                 }
                 );
 
@@ -57,6 +60,9 @@ namespace WebApiRealcional
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            //desactivando cors esta parte la habia olvidado :c
+            app.UseCors(_Cors);
 
             app.UseHttpsRedirection();
 
