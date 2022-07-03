@@ -24,7 +24,7 @@ manera que como esta la llave primaria en la tabla colegio
 ---
 # ConsumiendoAPI
 Para poder consumir la API basicamente solo se hizo un cambio 
-en el archivo StartUp.cd
+en el archivo StartUp.cs
 ![StartUp.cs](https://i.ibb.co/sbjXfzj/Screenshot-2022-07-02-182622.png)
 
 Luego en un archivo .html solo vamos a colocar lo siguiente (no tiene diseños 😆)
