@@ -3,7 +3,7 @@
 # Indice
 * [Imagen base datos relacionada](#Base-Datos)
 * [clases/entidades para relacion de alumnos a colegios](#Entidades)
-* [Ejemplo de como consumir la api (Elmer xd)](#Consumiento API)
+* [Ejemplo de como consumir la api (Elmer xd)](#ConsumiendoAPI)
 * [Nota (Importante ⚠️)](#nota)
 
 ---
@@ -22,7 +22,7 @@ manera que como esta la llave primaria en la tabla colegio
 ![Alumno](https://i.ibb.co/Swy5K20/Screenshot-2022-06-30-220956.png)
 
 ---
-# Consumiento API
+# ConsumiendoAPI
 Para poder consumir la API basicamente solo se hizo un cambio 
 en el archivo StartUp.cd
 ![StartUp.cs](https://i.ibb.co/sbjXfzj/Screenshot-2022-07-02-182622.png)
